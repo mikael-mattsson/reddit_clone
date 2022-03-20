@@ -1,0 +1,31 @@
+{
+  "name": "reddit_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "check:eslint": "eslint .",
+    "check:prettier": "prettier --check .",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "engines": {
+    "node": "^17.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "tenorjs": "^1.0.8",
+    "throng": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.0"
+  }
+}
